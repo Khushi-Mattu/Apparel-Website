@@ -1,0 +1,23 @@
+{
+  "name": "apparel-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss-cli@latest build -i ./src/styles.css -o ./public/styles.css"
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khushi-Mattu/Apparel-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khushi-Mattu/Apparel-Website/issues"
+  },
+  "homepage": "https://github.com/Khushi-Mattu/Apparel-Website#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
