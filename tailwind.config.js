@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       fontFamily:{
         Sacremento: ['Sacramento','sans-serif'],
-        Roboto:['Roboto Condensed','sans-serif']
+        Roboto:['Roboto Condensed','sans-serif'],
+        Michroma:['Michroma','sans-serif']
       }
     },
     colors:
@@ -14,8 +15,12 @@ module.exports = {
         slate: colors.slate,
         gray: colors.gray,
         zinc: colors.zinc,
-        floralwhite: '#fff9ef'
+        floralwhite: '#fff9ef',
+        black: colors.black,
+        turquoise:'#30ffd9',
+        white: colors.white
       }
   },
   plugins: [],
 }
+
