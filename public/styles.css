@@ -25117,6 +25117,24 @@ video {
   word-break: break-all;
 }
 
+.badge{
+  position: absolute;
+  bottom: 0px;
+  margin-left: 5rem;
+  display: inline-flex;
+  height: 2rem;
+  width: 8rem;
+  align-items: center;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  padding: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity))
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;

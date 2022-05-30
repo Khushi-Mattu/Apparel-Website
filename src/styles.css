@@ -10,3 +10,7 @@
 .break-all {
     word-break: break-all;
 }
+
+.badge{
+    @apply bg-white items-center inline-flex w-32 h-8 text-black uppercase font-bold rounded-full p-2 bottom-0 absolute ml-20
+}
