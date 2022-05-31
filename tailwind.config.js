@@ -6,7 +6,8 @@ module.exports = {
       fontFamily:{
         Sacremento: ['Sacramento','sans-serif'],
         Roboto:['Roboto Condensed','sans-serif'],
-        Michroma:['Michroma','sans-serif']
+        Michroma:['Michroma','sans-serif'],
+        ComforterBrush:['Comforter Brush','sans-serif']
       }
     },
     colors:
@@ -18,7 +19,8 @@ module.exports = {
         floralwhite: '#fff9ef',
         black: colors.black,
         turquoise:'#30ffd9',
-        white: colors.white
+        white: colors.white,
+        yellow: colors.yellow,
       }
   },
   plugins: [],
